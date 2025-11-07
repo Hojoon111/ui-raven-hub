@@ -2989,7 +2989,7 @@ local Library do
                     BackgroundColor3 = FromRGB(18, 18, 18)
                 })  Items["MainFrame"]:AddToTheme({BackgroundColor3 = "Background"})
 
-                Window.DepthOfField = Library:MakeBlurred(Items["MainFrame"])
+                Window.DepthOfField = Library:MakeBlurred(Items["MainFrame"], Window )
 
                 Items["MainFrame"]:MakeDraggable()
                 Items["MainFrame"]:MakeResizeable(Vector2New(697, 550), Vector2New(9999, 9999))
